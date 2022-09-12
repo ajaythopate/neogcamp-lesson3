@@ -6,112 +6,82 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
+    <title>home</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Ajaythopate's Component Library</h1>
-    <p>
-      I am attending neog.camp and make to library ehich would make my all
-      project.
-    </p>
-
-    <hr />
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>this is the second biggest</h2>
-    <p>
-      let me show you the norml text:this is the free lfowing and will wrap at
-      the end like a program
-    </p>
-    <p>This paragrap wil have a <strong>bold</strong>text</p>
-    <smaller>This is lelatively smaller text</smaller>
-
-    <hr />
-
-    <h2>@Containers</h2>
-    <h3>Fluid Cintainers</h3>
-    <div>
-      This is the fluid container and it will go to till the end of page
-    </div>
-
-    <h3>Center Containers</h3>
-    <div>
-      This is the Center container and it will go to till the spacified width
-    </div>
-
-    <hr />
-
-    <h2>@links</h2>
-    <a href="/"> Primary links</a>
-    <a href="/">Secondary links</a>
-    <hr />
-
-    <h2>@List</h2>
-    <h3>Unorder list</h3>
-    <ul>
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
-    </ul>
-
-    <h3>Inline unorder list</h3>
-    <ul>
-      <li>Inline Item One</li>
-      <li>Inline Item Two</li>
-      <li>Inline Item Three</li>
-    </ul>
-
-    <h3>Orderd list</h3>
-    <ol>
-      <li>Milk</li>
-      <li>Pav</li>
-      <li>eggs</li>
-    </ol>
-
-    <hr />
-
-    <h2>@Nav</h2>
-    <div>Brandname</div>
-
-    <nav>
-      <li>
-        <a href="/">home</a>
-      </li>
-      <li>
-        <a href="/">product</a>
-      </li>
-      <li>
-        <a href="/">about</a>
-      </li>
+    <nav class="navigation container">
+      <div class="nav-brand">AjayThopate</div>
+      <ul class="list-non bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">Project</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">Blogs</a>
+        </li>
+      </ul>
     </nav>
-    <hr />
 
-    <h2>Header</h2>
-    <header>
-      <img src="file:///home/linux/Downloads/undraw_programming_re_kg9v.svg" />
-      <h1>A insid hero</h1>
+    <header class="hero">
+      <img class="hero-img" src="image/hero-image.svg" />
+      <h1 class="hero-heading">
+        Ajay the<span style="color: var(--primary-color)">WEB DEVELOPER</span>
+      </h1>
     </header>
-    <hr />
 
-    <h2>@section</h2>
-    <secttion>
-      <h3>white section</h3>
-      <p>this will have white background</p>
-    </secttion>
-    <section>
-      <h3>off white section</h3>
-      <p>this will have gray background</p>
+    <section class="section ow">
+      <div class="container container-center radius">
+        <h1>Technologies</h1>
+        <p>
+          I am familiar with HTML, CSS , Git , Javacript, Node.Js, React.Js ,
+          Python, Intermediate problem solving ability and web Hosting.
+        </p>
+      </div>
     </section>
-    <hr />
+    <section class="section">
+      <div class="container container-center">
+        <h1>Projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online.
+        </p>
+        <div style="text-align: center">
+          <a class="link primary-link" href="./projects.html">View Projects</a>
+        </div>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Blogs</h1>
+        <p>
+          I am familiar with HTML, CSS , Git , Javacript, Node.Js, React.Js ,
+          Python, Intermediate problem solving ability and web Hosting.
+        </p>
+        <!-- <a class = 'link primary-link' href = "#">Read Bolgs</a> -->
+        <div style="text-align: center">
+          <a class="link secondary-link" href="./blogs.html">Read Bolgs</a>
+        </div>
+      </div>
+    </section>
 
-    <h2>@footer</h2>
-    <footer>
-      <div>some small heading inside footer</div>
-      <ul>
-        <li>socialOne</li>
-        <li>socialTwo</li>
-        <li>socialThree</li>
+    <footer class="footer">
+      <div class="footer-header">Social Media Presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/ajay-thopate-299b07147/"
+          >
+            linkedin
+          </a>
+        </li>
+
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/ajaythopate"> github </a>
+        </li>
       </ul>
     </footer>
   </body>

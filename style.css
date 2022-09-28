@@ -10,13 +10,30 @@
 **/ body {
   font-family: 'Antonio', sans-serif;
 }
+h1{
+text-align: center;
+margin: 0rem;
+}
+
+
+
+#myDIV {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-top-right-radius: 150px;}
+}
 
 hr {
-  margin: 2rem 0rem;
+  margin: 1rem 0rem;
 }
 /**container**/
 .container {
-  padding: 0rem 1rem;
+  padding: 0.50rem;
 }
 .container-center {
   max-width: 600px;
@@ -60,7 +77,7 @@ hr {
 }
 
 .navigation .nav-brand {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .navigation .nav-pills {

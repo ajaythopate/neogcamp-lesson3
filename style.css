@@ -1,5 +1,34 @@
 /** @format */
 
+:root {
+  --primary: rgb(29, 221, 189);
+  --bgDark: rgb(12, 12, 12);
+  --white: rgb(250, 250, 250);
+  --secondary: rgb(0, 59, 50);
+  --bgLight: rgb(190, 181, 181);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--bgDark);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+  
+
+}
+header nav .left a {
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+
+}
+/* * @format*
+
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200&display=swap');
 
 :root {
@@ -8,7 +37,7 @@
   --dark-gray: #6b7280;
   background-color: black;
 }
-**/ body {
+ body {
   font-family: 'Antonio', sans-serif;
 }
 h1 {
@@ -148,8 +177,8 @@ hr {
   color: white;
   border: top right radius 1rem;
 }
-.fa-linkedin:hover{
-    color: #008000;
+.fa-linkedin:hover {
+  color: #008000;
 }
 
 .footer .link {

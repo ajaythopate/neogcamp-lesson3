@@ -16,7 +16,6 @@
 }
 header {
   background-color: var(--bgDark);
-
 }
 header nav .left a {
   color: var(--white);
@@ -45,15 +44,14 @@ body {
   color: var(--white);
   margin-top: 10rem;
 }
-.hero .right h1{
+.hero .right h1 {
   font-size: 1.6rem;
   color: var(--primary);
   margin-bottom: 0.5rem;
 }
 .hero .right h1 {
-  
   font-size: 4rem;
-  font-weight:0.0;
+  font-weight: 0;
   line-height: 0;
   margin-bottom: 2rem;
 }
@@ -68,8 +66,6 @@ body {
   text-align: center;
 }
 
-
-
 .flex {
   display: flex;
 }
@@ -78,7 +74,6 @@ body {
 }
 .justify-between {
   justify-content: space-between;
-  
 }
 .justify-center {
   justify-content: center;
@@ -91,19 +86,15 @@ body {
   color: aqua;
 }
 
-
 .flex-1 {
   flex: 1;
-
 }
-
-
 
 section {
   padding: 5rem;
   height: 70vh;
 }
-section .flex-1{
+section .flex-1 {
   text-align: right;
 }
 section.about h1 {
@@ -115,7 +106,6 @@ section.about h1 {
 }
 section.about h1 span {
   color: var(--primary);
-
 }
 section.about h3 {
   text-align: center;
@@ -212,7 +202,9 @@ section.services .card-grid .card:hover p {
 }
 .aw {
   text-align: center;
-  height: 0rem;
+  padding: 10rem;
+  height: 05vh;
+  margin: 1rem;
   background-color: black;
   text-emphasis-color: var(--white);
 }
@@ -220,7 +212,12 @@ section.services .card-grid .card:hover p {
 .aw h1 {
   color: white;
 }
-
+.aw h3 {
+  color: bisque;
+}
+.section .aw .mark1 {
+  text-align: top;
+}
 .footer a {
   text-decoration: none;
   font-size: 22px;

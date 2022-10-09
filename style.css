@@ -214,6 +214,7 @@ section.services .card-grid .card:hover p {
 }
 .aw h3 {
   color: bisque;
+  margin-bottom: 20px;
 }
 .section .aw .mark1 {
   text-align: top;
@@ -222,4 +223,25 @@ section.services .card-grid .card:hover p {
   text-decoration: none;
   font-size: 22px;
   color: black;
+}
+
+.btn{
+padding: 0.6rem 2rem;
+font-weight: 600;
+border: 2px solid transparent;
+outline: none;
+cursor: pointer;
+text-transform: uppercase;
+transition: all .2s ease;
+text-decoration: none;
+border-radius: 0.5rem;
+}
+.demo{
+background-color: var(--primary);
+color: var(--secondary);
+}
+.demo:hover{
+background: transparent;
+border-color: var(--primary);
+color: var(--primary);
 }
